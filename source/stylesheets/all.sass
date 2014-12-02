@@ -1,0 +1,125 @@
+@import "bootstrap"
+
+.popover
+  max-width: 300px !important
+
+.popover-content
+  padding: 14px !important
+
+.fade
+  opacity: 0
+  -webkit-transition: opacity 0.5s ease-in-out
+  -moz-transition: opacity 0.5s ease-in-out
+  -o-transition: opacity 0.5s ease-in-out
+  transition: opacity 0.5s ease-in-out
+
+html
+  height: 100%
+body
+  background: #273633 image-url('images/christmas-bg.png') no-repeat no-repeat fixed
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+
+  div#snow
+    background: none
+    background-image: image-url('images/snow-1.png'), image-url('images/snow-2.png'), image-url('images/snow-3.png')
+    height: 100%
+    left: 0
+    position: absolute
+    top: 0
+    width: 100%
+    z-index: 1
+    -webkit-animation: snow 30s linear infinite
+    -moz-animation: snow 30s linear infinite
+    -ms-animation: snow 30s linear infinite
+    animation: snow 30s linear infinite
+
+  div.top-banner
+    padding-top: 60px
+    z-index: 2
+    img
+      margin: 0 auto
+
+  div.bottom-banner
+    margin-bottom: 80px
+    z-index: 2
+    img
+      margin: 0 auto
+
+  div#shops
+    margin-top: 30px
+    a.shop-link
+      display: block
+      margin-bottom: 25px
+      z-index: 3
+    div.shop
+      display: block
+      height: 100px
+      border-radius: 10px
+      opacity: 0.8
+      &:hover
+        opacity: 1
+      &.moxy
+        background: white image-url('images/moxy.png') no-repeat no-repeat 50% 50%
+      &.reebonz
+        background: white image-url('images/reebonz.png') no-repeat no-repeat 50% 50%
+      &.sanoga
+        background: white image-url('images/sanoga.png') no-repeat no-repeat 50% 50%
+      &.sanook
+        background: white image-url('images/sanook-super-deal.png') no-repeat no-repeat 50% 50%
+      &.lafema
+        background: white image-url('images/lafema.png') no-repeat no-repeat 50% 50%
+      &.priceza
+        background: white image-url('images/priceza.png') no-repeat no-repeat 50% 50%
+      &.petloft
+        background: white image-url('images/pet-loft.png') no-repeat no-repeat 50% 50%
+      &.luxola
+        background: white image-url('images/luxola.png') no-repeat no-repeat 50% 50%
+      &.venbi
+        background: white image-url('images/venbi.png') no-repeat no-repeat 50% 50%
+      &.shopspot
+        background: white image-url('images/shopspot.png') no-repeat no-repeat 50% 50%
+      &.guruwan
+        background: white image-url('images/guruwan.png') no-repeat no-repeat 50% 50%
+      &.wearyouwant
+        background: white image-url('images/wear-you-want.png') no-repeat no-repeat 50% 50%
+      &.rakuten
+        background: white image-url('images/rakuten-tarad.png') no-repeat no-repeat 50% 50%
+      &.thaimega
+        background: white image-url('images/thai-online-mega.png') no-repeat no-repeat 50% 50%
+      &.pomelo
+        background: white image-url('images/pomelo.png') no-repeat no-repeat 50% 50%
+
+@keyframes snow
+  0%  
+    background-position: 0px 0px, 0px 0px, 0px 0px
+  50%
+    background-position: 500px 500px, 100px 200px, -100px 200px
+  100% 
+    background-position: 1000px 1000px, 400px 400px, -300px 300px
+
+@-moz-keyframes snow
+  0%  
+    background-position: 0px 0px, 0px 0px, 0px 0px
+  50%
+    background-position: 500px 500px, 100px 200px, -100px 200px
+  100%
+    background-position: 1000px 1000px, 400px 400px, -300px 300px
+
+@-webkit-keyframes snow
+  0% 
+    background-position: 0px 0px, 0px 0px, 0px 0px
+  50% 
+    background-position: 500px 500px, 100px 200px, -100px 200px
+  100%
+    background-position: 1000px 1000px, 400px 400px, -300px 300px
+
+@-ms-keyframes snow
+  0%
+    background-position: 0px 0px, 0px 0px, 0px 0px
+  50%
+    background-position: 500px 500px, 100px 200px, -100px 200px
+  100% 
+    background-position: 1000px 1000px, 400px 400px, -300px 300px

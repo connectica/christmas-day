@@ -2,9 +2,22 @@
 title: Welcome to Middleman
 ---
 
-<div class="welcome">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<div id='snow'></div>
+
+<div class='container'>
+  <div class='col-sm-12 top-banner'>
+    <%= image_tag 'top-banner.png', class: 'img-responsive' %>
+  </div>
+  <div id='shops' class='col-sm-12 row'>
+    <% 15.times do %>
+      <% link_to '#', class: 'shop-link col-sm-4', target: '_blank' do %>
+        <div class='shop'>
+          
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+  <div class='col-sm-12 bottom-banner'>
+    <%= image_tag 'footer.png', class: 'img-responsive' %>
+  </div>
+</div>
