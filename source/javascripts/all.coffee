@@ -87,14 +87,15 @@ $(document).ready ->
     window.analytics.track 'Clicked Shop',
       link: $(this).attr('href')
 
-  $('a.shop-link').popover
+  $('a.shop-link, div.sponsor').popover
     placement: 'top'
     trigger: 'manual'
     html: true
 
-  $('a.shop-link').on 'mouseenter', (e) ->
+  $('a.shop-link, div.sponsor').on 'mouseenter', (e) ->
     $('.popover').popover('hide')
     $(this).popover('show')
+
 
   currentDate = new Date()
   futureDate  = new Date(2014, 11, 15, 11, 11)
