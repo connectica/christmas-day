@@ -27,8 +27,8 @@ $(document).ready ->
 
   luxola = 
     class: 'luxola'
-    link: 'http://www.luxola.com'
-    popup: "<a href='http://www.luxola.co.th'><img src='/images/luxola-popup.jpg' width='256' height='256' /></a>"
+    link: 'http://www.luxola.co.th/pages/supersalelx?utm_campaign=logo&utm_medium=Banner&utm_source=supersale'
+    popup: "<a href='http://www.luxola.co.th/pages/supersalelx?utm_campaign=logo&utm_medium=Banner&utm_source=supersale'><img src='/images/luxola-popup.jpg' width='256' height='256' /></a>"
 
   guruwan = 
     class: 'guruwan'
