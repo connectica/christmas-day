@@ -66,7 +66,8 @@ $(document).ready ->
 
   priceza = 
     class: 'priceza'
-    link: 'http://www.priceza.com'
+    link: 'http://www.priceza.com/guide/SuperSaleTH/5?utm_source=Landingpage&utm_medium=Banner&utm_campaign=Supersaleth'
+    popup: "<a href='http://www.priceza.com/guide/SuperSaleTH/5?utm_source=Landingpage&utm_medium=Banner&utm_campaign=Supersaleth'><img src='/images/priceza-popup.jpg' width='256' height='256'/></a>"
 
   sanook = 
     class: 'sanook'
@@ -76,6 +77,7 @@ $(document).ready ->
   shopspot = 
     class: 'shopspot'
     link: 'http://shopspotapp.com/user/supersaleth?utm_source=toms&utm_medium=banner&utm_campaign=supersale&utm_content=ss'
+    popup: "<a href='http://shopspotapp.com/user/supersaleth?utm_source=toms&utm_medium=banner&utm_campaign=supersale&utm_content=ss'><img src='/images/shopspot-popup.jpg' width='256' height='256' /></a>"
 
   shops = [reebonz,sanoga,petloft,venbi,luxola,guruwan,lafema,shopspot,wearyouwant,moxy,pomelo,sanook,priceza,thaimega,rakuten]
 
