@@ -12,18 +12,18 @@ $(document).ready ->
 
   sanoga =
     class: 'sanoga'
-    link: 'http://www.sanoga.com/supersale.html/?utm_source=web&utm_medium=banner&utm_campaign=supersale'
-    popup: "<a href='http://www.sanoga.com/supersale.html/?utm_source=web&utm_medium=banner&utm_campaign=supersale'><img src='/images/sanoga-popup.jpg' width='256' height='256' /></a>"
+    link: 'http://www.sanoga.com/th/clearance-deals.html?cat=super+sale'
+    popup: "<a href='http://www.sanoga.com/th/clearance-deals.html?cat=super+sale'><img src='/images/sanoga-popup.jpg' width='256' height='256' /></a>"
 
   petloft = 
     class: 'petloft'
-    link: 'http://www.petloft.com/supersale.html/?utm_source=web&utm_medium=banner&utm_campaign=supersale'
-    popup: "<a href='http://www.petloft.com/supersale.html/?utm_source=web&utm_medium=banner&utm_campaign=supersale'><img src='/images/petloft-popup.jpg' width='256' height='256' /></a>"
+    link: 'http://www.petloft.com/th/clearance-sale.html?cat=super+sale'
+    popup: "<a href='http://www.petloft.com/th/clearance-sale.html?cat=super+sale'><img src='/images/petloft-popup.jpg' width='256' height='256' /></a>"
 
   venbi = 
     class: 'venbi'
-    link: 'http://www.venbi.com/supersale.html/?utm_source=web&utm_medium=banner&utm_campaign=supersale'
-    popup: "<a href='http://www.venbi.com/supersale.html/?utm_source=web&utm_medium=banner&utm_campaign=supersale'><img src='/images/venbi-popup.jpg' width='256' height='256' /></a>"
+    link: 'http://www.venbi.com/th/deals/all-deals/super-sale.html'
+    popup: "<a href='http://www.venbi.com/th/deals/all-deals/super-sale.html'><img src='/images/venbi-popup.jpg' width='256' height='256' /></a>"
 
   luxola = 
     class: 'luxola'
@@ -37,8 +37,8 @@ $(document).ready ->
 
   lafema =
     class: 'lafema'
-    link: 'http://www.lafema.com/supersale.html/?utm_source=web&utm_medium=banner&utm_campaign=supersale'
-    popup: "<a href='http://www.lafema.com/supersale.html/?utm_source=web&utm_medium=banner&utm_campaign=supersale'><img src='/images/lafema-popup.jpg' width='256' height='256' /></a>"
+    link: 'http://www.lafema.com/th/sale/super-sale.html'
+    popup: "<a href='http://www.lafema.com/th/sale/super-sale.html'><img src='/images/lafema-popup.jpg' width='256' height='256' /></a>"
 
   wearyouwant =
     class: 'wearyouwant'
