@@ -32,8 +32,8 @@ $(document).ready ->
 
   guruwan = 
     class: 'guruwan'
-    link: 'http://www.guruwan.com'
-    popup: "<a href='http://www.guruwan.com'><img src='/images/guruwan-popup.jpg' width='256' height='256' /></a>"
+    link: 'http://www.guruwan.com/supersale'
+    popup: "<a href='http://www.guruwan.com/supersale'><img src='/images/guruwan-popup.jpg' width='256' height='256' /></a>"
 
   lafema =
     class: 'lafema'
@@ -76,8 +76,8 @@ $(document).ready ->
 
   shopspot = 
     class: 'shopspot'
-    link: 'http://shopspotapp.com/user/supersaleth?utm_source=toms&utm_medium=banner&utm_campaign=supersale&utm_content=ss'
-    popup: "<a href='http://shopspotapp.com/user/supersaleth?utm_source=toms&utm_medium=banner&utm_campaign=supersale&utm_content=ss'><img src='/images/shopspot-popup.jpg' width='256' height='256' /></a>"
+    link: 'http://shopspotapp.com/recommend/547e937ffa44a10a5637a020?utm_source=toms&utm_medium=banner&utm_campaign=onlinesale&utm_content=ss'
+    popup: "<a href='http://shopspotapp.com/recommend/547e937ffa44a10a5637a020?utm_source=toms&utm_medium=banner&utm_campaign=onlinesale&utm_content=ss'><img src='/images/shopspot-popup.jpg' width='256' height='256' /></a>"
 
   shops = [reebonz,sanoga,petloft,venbi,luxola,guruwan,lafema,shopspot,wearyouwant,moxy,pomelo,sanook,priceza,thaimega,rakuten]
 
