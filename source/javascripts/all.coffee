@@ -42,8 +42,8 @@ $(document).ready ->
 
   wearyouwant =
     class: 'wearyouwant'
-    link: 'http://www.wearyouwant.com'
-    popup: "<a href='http://www.wearyouwant.com'><img src='/images/wearyouwant-popup.jpg' width='256' height='256' /></a>"
+    link: 'https://www.wearyouwant.com/?utm_country=th&utm_channel=Partners&utm_source=Moxyst&utm_medium=referral&utm_campaign=Merry_Christmas&utm_content=wyw_logo_homepage'
+    popup: "<a href='https://www.wearyouwant.com/?utm_country=th&utm_channel=Partners&utm_source=Moxyst&utm_medium=referral&utm_campaign=Merry_Christmas&utm_content=wyw_logo_homepage'><img src='/images/wearyouwant-popup.jpg' width='256' height='256' /></a>"
 
   rakuten =
     class: 'rakuten'
@@ -57,8 +57,8 @@ $(document).ready ->
 
   pomelo = 
     class: 'pomelo'
-    link: 'http://www.pomelofashion.com/singles-day/?utm_source=singlesday&utm_medium=banner&utm_campaign=promo'
-    popup: "<a href='http://www.pomelofashion.com/singles-day/?utm_source=singlesday&utm_medium=banner&utm_campaign=promo'><img src='/images/pomelo-popup.jpg' width='256' height='256' /></a>"
+    link: 'http://www.pomelofashion.com/?utm_source=supersale&utm_medium=banner&utm_campaign=onlinesale'
+    popup: "<a href='http://www.pomelofashion.com/?utm_source=supersale&utm_medium=banner&utm_campaign=onlinesale'><img src='/images/pomelo-popup.jpg' width='256' height='256' /></a>"
 
   thaimega = 
     class: 'thaimega'
