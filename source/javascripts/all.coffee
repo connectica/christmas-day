@@ -57,8 +57,8 @@ $(document).ready ->
 
   pomelo = 
     class: 'pomelo'
-    link: 'http://www.pomelofashion.com/?utm_source=supersale&utm_medium=banner&utm_campaign=onlinesale'
-    popup: "<a href='http://www.pomelofashion.com/?utm_source=supersale&utm_medium=banner&utm_campaign=onlinesale'><img src='/images/pomelo-popup.jpg' width='256' height='256' /></a>"
+    link: 'http://www.pomelofashion.com/en/?utm_source=onlinewintersale&utm_medium=landingpage&utm_campaign=promo'
+    popup: "<a href='http://www.pomelofashion.com/en/?utm_source=onlinewintersale&utm_medium=landingpage&utm_campaign=promo'><img src='/images/pomelo-popup.jpg' width='256' height='256' /></a>"
 
   thaimega = 
     class: 'thaimega'
