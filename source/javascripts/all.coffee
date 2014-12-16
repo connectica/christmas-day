@@ -43,7 +43,7 @@ $(document).ready ->
   wearyouwant =
     class: 'wearyouwant'
     link: 'https://www.wearyouwant.com/?utm_country=th&utm_channel=Partners&utm_source=Moxyst&utm_medium=referral&utm_campaign=Merry_Christmas&utm_content=wyw_logo_homepage'
-    popup: "<a href='https://www.wearyouwant.com/?utm_country=th&utm_channel=Partners&utm_source=Moxyst&utm_medium=referral&utm_campaign=Merry_Christmas&utm_content=wyw_logo_homepage'><img src='/images/wearyouwant-popup.jpg' width='256' height='256' /></a>"
+    popup: "<a href='https://www.wearyouwant.com/?utm_country=th&utm_channel=Partners&utm_source=Moxyst&utm_medium=referral&utm_campaign=Merry_Christmas&utm_content=wyw_logo_homepage'><img src='/images/wearyouwant-popup.png' width='256' height='256' /></a>"
 
   rakuten =
     class: 'rakuten'
@@ -112,6 +112,3 @@ $(document).ready ->
     $(this).attr('href', randomized[index].link)
     $(this).attr('data-content', randomized[index].popup)
     $(this).find('div').addClass(randomized[index].class)
-
-  
-
